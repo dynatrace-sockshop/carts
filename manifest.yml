@@ -8,7 +8,7 @@ applications:
   - dynatrace
   env:
     DT_NODE_ID: APPNAME
-    DT_TAGS: DeploymentColor=APPCOLOR
     DT_CUSTOM_PROP: DEPLOYMENT_GRP_NME=DTGRP DEPLOYMENT_COLOR=APPCOLOR
     DEPLOYMENT_GRP_NME: DTGRP
     DUMMY_VAR: changethisagain2
+   #DT_TAGS: DeploymentColor=APPCOLOR
