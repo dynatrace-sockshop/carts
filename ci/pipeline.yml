@@ -81,7 +81,7 @@ resources:
     username: ((docker-hub-username))
     password: ((docker-hub-password))
 
-# PCF Environments
+# CF Environments
 
 - name: pcf-stage
   type: cf
