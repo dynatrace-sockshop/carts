@@ -3,7 +3,7 @@ applications:
 - name: APPNAME
   memory: 1G
   instances: 1
-  buildpack: java_buildpack
+  buildpack: sap_java_buildpack
   services:
   - dynatrace
   env:
