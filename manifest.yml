@@ -3,7 +3,9 @@ applications:
 - name: APPNAME
   memory: 1G
   instances: 1
-  buildpack: java_buildpack_offline
+  buildpack: sap_java_buildpack
+  services:
+  - dynatrace
   env:
     DT_NODE_ID: APPNAME
     DT_CUSTOM_PROP: DEPLOYMENT_GRP_NME=DTGRP DEPLOYMENT_COLOR=APPCOLOR
